@@ -16,6 +16,13 @@ The theme's background image loads from this repository, so it needs internet ac
 
 `images/` also holds a banner, a cat, a pair of heart boxers and a gold chest for use in picture or markdown cards.
 
+## Themes
+
+- **Dungeon Crawl** is the everyday look.
+- **Dungeon Crawl Halloween** swaps in green torches, cobwebs and pumpkin orange.
+
+Both set `dc-` colour variables and card pictures, so card-mod styles that use them change with the theme.
+
 ## Fonts
 
 The theme asks for Bungee and Share Tech Mono and falls back to system fonts. To load them, add this as a dashboard resource of type **Stylesheet**:
