@@ -1,0 +1,51 @@
+Dungeon Crawl:
+  # Wall
+  lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/dungeon-wall.jpg")'
+  primary-background-color: "#0c090e"
+  secondary-background-color: "#15101a"
+
+  # Text
+  primary-text-color: "#f4efe6"
+  secondary-text-color: "#b9b0a6"
+  disabled-text-color: "#6f6772"
+  text-primary-color: "#120a14"
+  rgb-primary-text-color: "244, 239, 230"
+
+  # Neon
+  primary-color: "#ff2fb3"
+  accent-color: "#39ff88"
+  rgb-primary-color: "255, 47, 179"
+  rgb-accent-color: "57, 255, 136"
+  success-color: "#39ff88"
+  warning-color: "#ffc62e"
+  error-color: "#ff4b3a"
+  info-color: "#4bc8ff"
+  state-active-color: "#ffc62e"
+  state-icon-color: "#b9b0a6"
+  divider-color: "rgba(255, 255, 255, 0.14)"
+
+  # Cards
+  card-background-color: "#150f19"
+  ha-card-background: "rgba(14, 10, 16, 0.84)"
+  ha-card-border-color: "rgba(255, 255, 255, 0.14)"
+  ha-card-border-width: "2px"
+  ha-card-border-radius: "6px"
+  ha-card-box-shadow: "none"
+  ha-card-header-color: "#ffc62e"
+  mdc-theme-surface: "#15101a"
+  dialog-background-color: "#15101a"
+
+  # Top bar and sidebar
+  app-header-background-color: "#120a14"
+  app-header-text-color: "#ffc62e"
+  app-header-selection-bar-color: "#ffc62e"
+  sidebar-background-color: "#0f0a12"
+  sidebar-text-color: "#b9b0a6"
+  sidebar-icon-color: "#b9b0a6"
+  sidebar-selected-text-color: "#ffc62e"
+  sidebar-selected-icon-color: "#ffc62e"
+  sidebar-selected-background-color: "#ffc62e"
+
+  # Fonts, used when the Bungee and Share Tech Mono stylesheet is loaded as a resource
+  ha-font-family-heading: "Bungee, Impact, sans-serif"
+  ha-font-family-body: "'Share Tech Mono', ui-monospace, Menlo, monospace"
