@@ -20,8 +20,12 @@ The theme's background image loads from this repository, so it needs internet ac
 
 - **Dungeon Crawl** is the everyday look.
 - **Dungeon Crawl Halloween** swaps in green torches, cobwebs and pumpkin orange.
+- **Christmas, New Year, Family Day, Easter, Victoria Day, Canada Day, BC Day, Labour Day, Thanksgiving, Truth and Reconciliation and Remembrance Day** each have their own wall, banner and colours.
+- **Dungeon Crawl Birthday 01 to 20** are party looks. Their banners leave a dark panel for a dashboard to write a name on, and no names are stored here.
 
-Both set `dc-` colour variables and card pictures, so card-mod styles that use them change with the theme.
+All of them set `dc-` colour variables and card pictures, including `dc-banner`, so card-mod styles that use them change with the theme. [Dungeon Season](https://github.com/goforth-device/ha-dungeon-season) switches between them by date.
+
+`images/cat-mood-*.gif` are animated cat poses for showing what the house is up to.
 
 ## Fonts
 
