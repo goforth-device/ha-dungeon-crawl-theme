@@ -128,6 +128,266 @@ Dungeon Crawl Halloween:
   dc-loot-box: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/pumpkin.png")'
   dc-banner: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/banner-halloween.png")'
 
+Dungeon Crawl Winter:
+  # Wall
+  lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/winter-wall.jpg")'
+  primary-background-color: "#070d18"
+  secondary-background-color: "#0e1828"
+
+  # Text
+  primary-text-color: "#f4efe6"
+  secondary-text-color: "#b9b0a6"
+  disabled-text-color: "#6f6772"
+  text-primary-color: "#120a14"
+  rgb-primary-text-color: "244, 239, 230"
+
+  # Neon
+  primary-color: "#7fd4ff"
+  accent-color: "#e4f4ff"
+  rgb-primary-color: "127, 212, 255"
+  rgb-accent-color: "228, 244, 255"
+  success-color: "#e4f4ff"
+  warning-color: "#b8e6ff"
+  error-color: "#ff3b30"
+  info-color: "#4bc8ff"
+  state-active-color: "#b8e6ff"
+  state-icon-color: "#b9b0a6"
+  divider-color: "rgba(255, 255, 255, 0.14)"
+
+  # Cards
+  card-background-color: "#0e1828"
+  ha-card-background: "rgba(7, 13, 24, 0.86)"
+  ha-card-border-color: "rgba(255, 255, 255, 0.14)"
+  ha-card-border-width: "2px"
+  ha-card-border-radius: "6px"
+  ha-card-box-shadow: "none"
+  ha-card-header-color: "#b8e6ff"
+  mdc-theme-surface: "#0e1828"
+  dialog-background-color: "#0e1828"
+
+  # Top bar and sidebar
+  app-header-background-color: "#120a14"
+  app-header-text-color: "#b8e6ff"
+  app-header-selection-bar-color: "#b8e6ff"
+  sidebar-background-color: "#070d18"
+  sidebar-text-color: "#b9b0a6"
+  sidebar-icon-color: "#b9b0a6"
+  sidebar-selected-text-color: "#b8e6ff"
+  sidebar-selected-icon-color: "#b8e6ff"
+  sidebar-selected-background-color: "#b8e6ff"
+
+  # Fonts, used when the Bungee and Share Tech Mono stylesheet is loaded as a resource
+  ha-font-family-heading: "Bungee, Impact, sans-serif"
+  ha-font-family-body: "'Share Tech Mono', ui-monospace, Menlo, monospace"
+
+  # Glow colours and card pictures for card-mod styles, so they change with the theme
+  dc-system: "#e4f4ff"
+  dc-system-glow: "rgba(228, 244, 255, 0.35)"
+  dc-loot: "#b8e6ff"
+  dc-loot-glow: "rgba(184, 230, 255, 0.4)"
+  dc-accent: "#5aa8ff"
+  dc-accent-glow: "rgba(90, 168, 255, 0.4)"
+  dc-danger: "#ff3b30"
+  dc-danger-glow: "rgba(255, 59, 48, 0.45)"
+  dc-mascot: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/cat-winter.png")'
+  dc-loot-box: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/box-winter.png")'
+  dc-banner: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/banner-winter.png")'
+
+Dungeon Crawl Spring:
+  # Wall
+  lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/spring-wall.jpg")'
+  primary-background-color: "#0a120c"
+  secondary-background-color: "#121e16"
+
+  # Text
+  primary-text-color: "#f4efe6"
+  secondary-text-color: "#b9b0a6"
+  disabled-text-color: "#6f6772"
+  text-primary-color: "#120a14"
+  rgb-primary-text-color: "244, 239, 230"
+
+  # Neon
+  primary-color: "#7be08a"
+  accent-color: "#ffc8e0"
+  rgb-primary-color: "123, 224, 138"
+  rgb-accent-color: "255, 200, 224"
+  success-color: "#ffc8e0"
+  warning-color: "#ffe07a"
+  error-color: "#ff3b30"
+  info-color: "#4bc8ff"
+  state-active-color: "#ffe07a"
+  state-icon-color: "#b9b0a6"
+  divider-color: "rgba(255, 255, 255, 0.14)"
+
+  # Cards
+  card-background-color: "#121e16"
+  ha-card-background: "rgba(10, 18, 12, 0.86)"
+  ha-card-border-color: "rgba(255, 255, 255, 0.14)"
+  ha-card-border-width: "2px"
+  ha-card-border-radius: "6px"
+  ha-card-box-shadow: "none"
+  ha-card-header-color: "#ffe07a"
+  mdc-theme-surface: "#121e16"
+  dialog-background-color: "#121e16"
+
+  # Top bar and sidebar
+  app-header-background-color: "#120a14"
+  app-header-text-color: "#ffe07a"
+  app-header-selection-bar-color: "#ffe07a"
+  sidebar-background-color: "#0a120c"
+  sidebar-text-color: "#b9b0a6"
+  sidebar-icon-color: "#b9b0a6"
+  sidebar-selected-text-color: "#ffe07a"
+  sidebar-selected-icon-color: "#ffe07a"
+  sidebar-selected-background-color: "#ffe07a"
+
+  # Fonts, used when the Bungee and Share Tech Mono stylesheet is loaded as a resource
+  ha-font-family-heading: "Bungee, Impact, sans-serif"
+  ha-font-family-body: "'Share Tech Mono', ui-monospace, Menlo, monospace"
+
+  # Glow colours and card pictures for card-mod styles, so they change with the theme
+  dc-system: "#ffc8e0"
+  dc-system-glow: "rgba(255, 200, 224, 0.35)"
+  dc-loot: "#ffe07a"
+  dc-loot-glow: "rgba(255, 224, 122, 0.4)"
+  dc-accent: "#ff9ac6"
+  dc-accent-glow: "rgba(255, 154, 198, 0.4)"
+  dc-danger: "#ff3b30"
+  dc-danger-glow: "rgba(255, 59, 48, 0.45)"
+  dc-mascot: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/cat-spring.png")'
+  dc-loot-box: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/box-spring.png")'
+  dc-banner: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/banner-spring.png")'
+
+Dungeon Crawl Summer:
+  # Wall
+  lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/summer-wall.jpg")'
+  primary-background-color: "#0e0e10"
+  secondary-background-color: "#1a1814"
+
+  # Text
+  primary-text-color: "#f4efe6"
+  secondary-text-color: "#b9b0a6"
+  disabled-text-color: "#6f6772"
+  text-primary-color: "#120a14"
+  rgb-primary-text-color: "244, 239, 230"
+
+  # Neon
+  primary-color: "#ffcf33"
+  accent-color: "#4fe0d8"
+  rgb-primary-color: "255, 207, 51"
+  rgb-accent-color: "79, 224, 216"
+  success-color: "#4fe0d8"
+  warning-color: "#ffcf33"
+  error-color: "#ff3b30"
+  info-color: "#4bc8ff"
+  state-active-color: "#ffcf33"
+  state-icon-color: "#b9b0a6"
+  divider-color: "rgba(255, 255, 255, 0.14)"
+
+  # Cards
+  card-background-color: "#1a1814"
+  ha-card-background: "rgba(14, 14, 16, 0.86)"
+  ha-card-border-color: "rgba(255, 255, 255, 0.14)"
+  ha-card-border-width: "2px"
+  ha-card-border-radius: "6px"
+  ha-card-box-shadow: "none"
+  ha-card-header-color: "#ffcf33"
+  mdc-theme-surface: "#1a1814"
+  dialog-background-color: "#1a1814"
+
+  # Top bar and sidebar
+  app-header-background-color: "#120a14"
+  app-header-text-color: "#ffcf33"
+  app-header-selection-bar-color: "#ffcf33"
+  sidebar-background-color: "#0e0e10"
+  sidebar-text-color: "#b9b0a6"
+  sidebar-icon-color: "#b9b0a6"
+  sidebar-selected-text-color: "#ffcf33"
+  sidebar-selected-icon-color: "#ffcf33"
+  sidebar-selected-background-color: "#ffcf33"
+
+  # Fonts, used when the Bungee and Share Tech Mono stylesheet is loaded as a resource
+  ha-font-family-heading: "Bungee, Impact, sans-serif"
+  ha-font-family-body: "'Share Tech Mono', ui-monospace, Menlo, monospace"
+
+  # Glow colours and card pictures for card-mod styles, so they change with the theme
+  dc-system: "#4fe0d8"
+  dc-system-glow: "rgba(79, 224, 216, 0.35)"
+  dc-loot: "#ffcf33"
+  dc-loot-glow: "rgba(255, 207, 51, 0.4)"
+  dc-accent: "#ff7a45"
+  dc-accent-glow: "rgba(255, 122, 69, 0.4)"
+  dc-danger: "#ff3b30"
+  dc-danger-glow: "rgba(255, 59, 48, 0.45)"
+  dc-mascot: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/cat-summer.png")'
+  dc-loot-box: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/box-summer.png")'
+  dc-banner: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/banner-summer.png")'
+
+Dungeon Crawl Fall:
+  # Wall
+  lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/fall-wall.jpg")'
+  primary-background-color: "#100a07"
+  secondary-background-color: "#1c130d"
+
+  # Text
+  primary-text-color: "#f4efe6"
+  secondary-text-color: "#b9b0a6"
+  disabled-text-color: "#6f6772"
+  text-primary-color: "#120a14"
+  rgb-primary-text-color: "244, 239, 230"
+
+  # Neon
+  primary-color: "#ff8a3c"
+  accent-color: "#ffd166"
+  rgb-primary-color: "255, 138, 60"
+  rgb-accent-color: "255, 209, 102"
+  success-color: "#ffd166"
+  warning-color: "#ffb03a"
+  error-color: "#ff3b30"
+  info-color: "#4bc8ff"
+  state-active-color: "#ffb03a"
+  state-icon-color: "#b9b0a6"
+  divider-color: "rgba(255, 255, 255, 0.14)"
+
+  # Cards
+  card-background-color: "#1c130d"
+  ha-card-background: "rgba(16, 10, 7, 0.86)"
+  ha-card-border-color: "rgba(255, 255, 255, 0.14)"
+  ha-card-border-width: "2px"
+  ha-card-border-radius: "6px"
+  ha-card-box-shadow: "none"
+  ha-card-header-color: "#ffb03a"
+  mdc-theme-surface: "#1c130d"
+  dialog-background-color: "#1c130d"
+
+  # Top bar and sidebar
+  app-header-background-color: "#120a14"
+  app-header-text-color: "#ffb03a"
+  app-header-selection-bar-color: "#ffb03a"
+  sidebar-background-color: "#100a07"
+  sidebar-text-color: "#b9b0a6"
+  sidebar-icon-color: "#b9b0a6"
+  sidebar-selected-text-color: "#ffb03a"
+  sidebar-selected-icon-color: "#ffb03a"
+  sidebar-selected-background-color: "#ffb03a"
+
+  # Fonts, used when the Bungee and Share Tech Mono stylesheet is loaded as a resource
+  ha-font-family-heading: "Bungee, Impact, sans-serif"
+  ha-font-family-body: "'Share Tech Mono', ui-monospace, Menlo, monospace"
+
+  # Glow colours and card pictures for card-mod styles, so they change with the theme
+  dc-system: "#ffd166"
+  dc-system-glow: "rgba(255, 209, 102, 0.35)"
+  dc-loot: "#ffb03a"
+  dc-loot-glow: "rgba(255, 176, 58, 0.4)"
+  dc-accent: "#c2482a"
+  dc-accent-glow: "rgba(194, 72, 42, 0.4)"
+  dc-danger: "#ff3b30"
+  dc-danger-glow: "rgba(255, 59, 48, 0.45)"
+  dc-mascot: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/cat-fall.png")'
+  dc-loot-box: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/box-fall.png")'
+  dc-banner: 'url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/banner-fall.png")'
+
 Dungeon Crawl Christmas:
   # Wall
   lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/goforth-device/ha-dungeon-crawl-theme/main/images/christmas-wall.jpg")'

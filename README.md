@@ -18,7 +18,8 @@ The theme's background image loads from this repository, so it needs internet ac
 
 ## Themes
 
-- **Dungeon Crawl** is the everyday look.
+- **Dungeon Crawl** is the original look, and the fallback if a theme is missing.
+- **Dungeon Crawl Winter, Spring, Summer and Fall** each have their own wall, colours, cat outfit and box. `images/banner-winter-01.png` to `12` and the same for the other seasons carry a different season name each, so a dashboard can swap in a new banner every year.
 - **Dungeon Crawl Halloween** swaps in green torches, cobwebs and pumpkin orange.
 - **Christmas, New Year, Family Day, Easter, Victoria Day, Canada Day, BC Day, Labour Day, Thanksgiving, Truth and Reconciliation and Remembrance Day** each have their own wall, banner and colours.
 - **Dungeon Crawl Birthday 01 to 20** are party looks. Their banners leave a dark panel for a dashboard to write a name on, and no names are stored here.
