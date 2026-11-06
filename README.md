@@ -28,6 +28,8 @@ All of them set `dc-` colour variables and card pictures, including `dc-banner`,
 
 `images/cat-mood-*.gif` are animated cat poses for showing what the house is up to.
 
+`images/cat-mood-weather-*.gif` are one pose per Environment Canada weather hazard: `wind`, `rain`, `snow`, `cold`, `frost`, `ice` (freezing rain), `heat`, `fog`, `thunder`, `tornado` and `surge` (storm surge). Hazards that often arrive together have their own pose: `storm` (wind and rain), `blizzard` (wind and snow, or a winter storm), `outflow` (wind and cold, or Arctic outflow), `surge-storm` (storm surge with wind or rain) and `smoke` (heat and wildfire smoke). `cat-mood-weather.gif` is the general one for anything else, such as a special weather statement.
+
 ## Fonts
 
 The theme asks for Bungee and Share Tech Mono and falls back to system fonts. To load them, add this as a dashboard resource of type **Stylesheet**:
